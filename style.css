@@ -1,0 +1,73 @@
+#main{
+    height: 450px;
+    width: 600px;
+    margin: auto;
+    background: url(./download\ \(2\).jpg);
+    margin-top: 160px;
+    margin-left: 1350;
+    background-repeat: repeat;
+    background-size: cover;
+    background: rgba(0,0,0, 0.1);
+    color: rgb(253, 254, 255);
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 50%;
+}
+#rules{
+   margin-left: 100px;
+
+}
+#rls{
+   text-align: center;
+}
+#main1{
+    margin-left: 5px;
+}
+#main2{
+    text-align: center;
+}
+#main2{
+    margin-left: 10px;
+}
+h1{
+    margin-left: 90px;
+}
+#count{
+    margin-left: 260px;
+}
+#bth{
+    margin-left: 120px;
+}
+
+#reset{
+    margin-left: 200px;
+    background: linear-gradient(90deg,red,yellow,green,blue);
+    border-radius: 45px;
+    border-color: rgb(0, 89, 255);
+}
+#check{
+    background: linear-gradient(90deg,red,yellow,green,blue);
+    border-radius: 45px;
+    border-color: rgb(47, 0, 255);
+}
+#check:hover{
+    background:chartreuse;
+}
+#reset:hover{
+    background:chartreuse;
+}
+#n1{
+padding-left: 50px;
+border-radius: 50px;
+border-color: rgb(252, 254, 255);
+color: red;
+background: linear-gradient(90deg,rgb(72, 219, 219),black,rgb(76, 196, 196));
+}
+body{
+    background: url(./download\ \(2\).jpg);
+    background-repeat: repeat;
+    background-size: cover;
+ 
+    
+}

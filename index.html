@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="main1">
+            <h1>Number Gussing Game..  </h1>
+            <center><h2>Rules</h2></center>
+        </div>
+       <div id="rules">
+            <li>Select a number from 1 to 100</li>
+            <li>Click on CHECK buttom</li> 
+            <li>It will give you hint to guss the number correctly</li>
+            <li>Repeat the same step untill you find the number</li>
+        </div><br>
+        <div id="main2">
+            <input type="text" name="num" id="n1" placeholder="Enter the number">
+            <br>
+        </div>
+            <h1 id="result">WAIT FOR THE RESULT !</h1>
+            <h1 id="count">0</h1>
+        <div id="bth">
+            <button type="submit" onclick="findnum()" id="check">CHECK </button>
+            <BUtton type="submit" onclick="window.location.reload()" id="reset">RESET</BUtton>
+        </div>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
